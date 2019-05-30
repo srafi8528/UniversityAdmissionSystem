@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>University_Management_System</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet-mapping>
+  <servlet-name>data</servlet-name>
+  <url-pattern>/view/scheduleProgram</url-pattern>
+  <url-pattern>/view/programsOffered</url-pattern>
+  <url-pattern>/view/applicationForm</url-pattern>
+  <url-pattern>/view/login</url-pattern>
+  <url-pattern>/view/deleteProgram</url-pattern>
+  <url-pattern>/view/deleteScheduledProgram</url-pattern>
+  <url-pattern>/view/updateToConfirm</url-pattern>
+  <url-pattern>/view/updateToAccept</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>data</servlet-name>
+  <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  </servlet>
+</web-app>

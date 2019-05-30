@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ <form action="scheduleProgram" method= "POST">
+<table>
+<tr>
+	<td>Scheduled Program Id</td>
+	<td>:</td>
+	<td><input type="number" placeholder="Enter Id" name="scheduledProgramId" required pattern="[0-5]+"></td>
+</tr>
+<tr>
+	<td>Program Name</td>
+	<td>:</td>
+	<td><input type="text" placeholder="Enter Program Name" name="programName" required ></td>
+</tr>
+<tr>
+	<td>Location</td>
+	<td>:</td>
+	<td><input type="text" placeholder="Enter Location" name="location" required></td>
+</tr>
+<tr>
+	<td>Start Date</td>
+	<td>:</td>
+	<td><input type="date"  name="startDate" required></td>
+</tr>
+<tr>
+	<td>End Date</td>
+	<td>:</td>
+	<td><input type="date"  name="endDate" required></td>
+</tr>
+<tr>
+	<td>Sessions Per Week</td>
+	<td>:</td>
+	<td><input type="text" placeholder="Enter Seesions" name="sessionsPerWeek" required></td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td><input type="submit" value ="submit"></td>
+</tr>
+</table>
+ </form>
+  
+ </body>
+</html>
